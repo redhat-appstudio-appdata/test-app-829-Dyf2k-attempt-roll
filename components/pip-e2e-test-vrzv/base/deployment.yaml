@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: pip-e2e-test-vrzv
     spec:
       containers:
-      - image: pip-e2e-test:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-829/pip-e2e-test-vrzv@sha256:8861ed4a0cc71bf14f87fd1671893d14957d87588aa71b7b32cde1e4a4e31348
         name: pip-e2e-test
         ports:
         - containerPort: 8081
