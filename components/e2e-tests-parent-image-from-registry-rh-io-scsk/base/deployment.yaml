@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-parent-image-from-registry-rh-io-scsk
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-829/e2e-tests-parent-image-from-registry-rh-io-scsk@sha256:fbc30599b06210a5011cef0b97543823e25f1e152508674eb97a3ae616e44c88
         imagePullPolicy: Always
         name: container-image
         ports:
