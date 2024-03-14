@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: retrodep-snf1
     spec:
       containers:
-      - image: retrodep:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-829/retrodep-snf1@sha256:d3706e0f3a756251887cb05c65bad7d51a125092026f6359a50e75fea8db3dec
         name: my-retrodep
         ports:
         - containerPort: 8081
