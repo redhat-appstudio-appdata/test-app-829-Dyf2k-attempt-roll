@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-no-dockerfile-ffgc
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-829/nodejs-no-dockerfile-ffgc@sha256:f821c579f298cff5d6566bc21d00a1da6cb68518949885a270eb832240d2f4b9
         name: my-nodejs
         ports:
         - containerPort: 3001
